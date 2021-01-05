@@ -1,0 +1,347 @@
+/* font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Open Sans', sans-serif; */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  padding-right: 250px;
+  padding-left: 250px;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.link {
+  text-decoration: none;
+}
+/*header*/
+.header .overlay {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1440px;
+  background-image: url('../image/bg-top.jpg');
+  background-color: #d8d8d8;
+  height: 769px;
+}
+.overlay .logo {
+  margin-top: 41px;
+  margin-bottom: 0;
+}
+.hero .title {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+  line-height: 1.17;
+  letter-spacing: 5.70937px;
+
+  color: #ffffff;
+}
+.hero .text {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.375;
+
+  color: #ffffff;
+}
+.hero .text-bottom {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 71px;
+
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 3.7px;
+
+  color: #ffffff;
+}
+/*navigation*/
+.container.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #e6e6e6;
+}
+.nav .list {
+  display: flex;
+}
+.nav .item + .item {
+  margin-left: 48px;
+}
+
+.nav .link {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.13;
+  letter-spacing: 1.09091px;
+
+  color: #48555b;
+}
+.nav .link:hover,
+.nav .link:focus {
+  color: #00a4e5;
+  cursor: pointer;
+}
+/*story*/
+.story .title {
+  display: block;
+  text-align: center;
+
+  margin-bottom: 67px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 2.30625px;
+
+  color: #48555b;
+}
+.story .container {
+  display: block;
+  padding-top: 57px;
+  padding-bottom: 118px;
+}
+.story .position {
+  display: flex;
+}
+.story .text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.35;
+  letter-spacing: 0.1875px;
+
+  color: #48555b;
+
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.story .accent-color {
+  color: #16ace8;
+}
+.story .text2 {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.77;
+  letter-spacing: 0.1875px;
+
+  color: #48555b;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.story .list {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 76.92px;
+}
+.story .plan {
+  display: block;
+  background-image: url('../image/plan.jpg');
+  background-color: D8D8D8;
+  width: 140px;
+  height: 224px;
+  padding-top: 15px;
+  padding-left: 14px;
+}
+.story .manage {
+  display: block;
+  background-image: url('../image/manage.jpg');
+  background-color: D8D8D8;
+  width: 140px;
+  height: 224px;
+  padding-top: 15px;
+  padding-left: 14px;
+}
+.story .build {
+  display: block;
+  background-image: url('../image/build.jpg');
+  background-color: D8D8D8;
+  width: 140px;
+  height: 224px;
+  padding-top: 15px;
+  padding-left: 14px;
+}
+.story .item + .item {
+  margin-left: 20px;
+}
+.story .item {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1875px;
+
+  color: #ffffff;
+}
+/*capabilities*/
+.capabilities .container {
+  display: block;
+}
+.capabilities .position {
+  display: flex;
+  padding-bottom: 78px;
+}
+.position-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 2.30625px;
+
+  color: #48555b;
+
+  margin-right: 150px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.position-text {
+  max-width: 405.4px;
+
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.72;
+  letter-spacing: 0.2px;
+
+  color: #48555b;
+
+  margin-right: 31.6px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.capabilities .button {
+  display: inline-flex;
+  padding-top: 11px;
+  padding-right: 29px;
+  padding-bottom: 11px;
+  padding-left: 29px;
+
+  min-width: 150px;
+  border: 1px solid transparent;
+
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.38;
+  letter-spacing: 0.5px;
+
+  color: #ffffff;
+  background-color: #16ace8;
+}
+.capabilities .list {
+  display: flex;
+}
+.capabilities .item {
+  display: block;
+  padding-top: 38px;
+  padding-right: 21px;
+  padding-bottom: 38px;
+  padding-left: 21px;
+
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+}
+.capabilities .item + .item {
+  margin-left: 28px;
+}
+.capabilities .list .title {
+  margin-top: 0;
+  margin-bottom: 13px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.426667px;
+
+  color: #48555b;
+}
+.capabilities .list .text {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.8;
+  letter-spacing: 0.1875px;
+
+  color: #48555b;
+}
+.capabilities .picture {
+  margin-bottom: 25px;
+}
+/*get it touch*/
+.touch .overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  height: 499px;
+
+  background-image: url('../image/bg-bottom.jpg');
+  background-color: #ffffff;
+}
+.touch .title {
+  display: block;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 35px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 0.15px;
+
+  color: #48555b;
+}
+.touch .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 11px;
+  padding-right: 26px;
+  padding-bottom: 11px;
+  padding-left: 21px;
+
+  min-width: 150px;
+
+  background-color: #00a4e5;
+  border: 1px solid transparent;
+
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+
+  color: #ffffff;
+}

@@ -4,133 +4,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KONSTRUCT</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-<!--hero-->
-        <div>
-            <h1>PARTNER WITH KONSTRUCT</h1>
-            <p>An award-winning construction management firm</p>
-            <p>SCROLL DOWN</p>
+    <header class="header hero">
+<!--header overlay-->
+        <div class="overlay">
+            <img class="logo" src="./image/logo.svg">
+            <h1 class="title">PARTNER WITH KONSTRUCT</h1>
+            <p class="text">An award-winning construction management firm</p>
+            <p class="text-bottom">SCROLL DOWN</p>
         </div>
 <!--navigation-->
-        <div>
-            <ul>
-                <li>
-                    <a href="">HOME</a>
-                </li>
-                <li>
-                    <a href="">ABOUT</a>
-                </li>
-                <li>
-                    <a href="">SERVICES</a>
-                </li>
-                <li>
-                    <a href="">WORK</a>
-                </li>
-                <li>
-                    <a href="">CONTACT</a>
-                </li>
-            </ul>
-        </div>
+        <nav class="container nav">
+                <img class="logo" src="./image/logo.jpg">
+                <ul class="list">
+                    <li class="item">
+                        <a class="link" href="">HOME</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="">ABOUT</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="">SERVICES</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="">WORK</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="">CONTACT</a>
+                    </li>
+                </ul>
+        </nav>
     </header>
+
     <main>
 <!--our story-->
-    <section>
-        <h2>OUR STORY</h2>
-        <h3>Founded in 2011 by John Mathew Smith, Konstruct has become the number one construction management firm</h3>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-        <div>
-            <ul>
-                <li>WE PLAN</li>
-                <li>WE MANAGE</li>
-                <li>WE BUILD</li>
-            </ul>
+    <section class="story">
+        <div class="container">
+            <h2 class="title">OUR STORY</h2>
+            <div class="position">
+                <div class="text-position">
+                    <p class="text">Founded in 2011 by John Mathew Smith, <span class="accent-color">Konstruct</span> has become the number one construction management firm</p>
+                    <p class="text2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+                <ul class="list">
+                    <li class="item plan">WE<br>PLAN</li>
+                    <li class="item manage">WE<br>MANAGE</li>
+                    <li class="item build">WE<br>BUILD</li>
+                </ul>
+            </div>
         </div>
     </section>
 <!--our capabilities-->
-    <section>
-        <h2>OUR CAPABILITIES</h2>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-        <ul>
-            <li>
-                <h3>PROJECT AND CONSTRUCTION MANAGEMENT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-            </li>
-            <li>
-                <h3>STRUCTURE AUDIT AND MAINTENANCE</h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-            </li>
-            <li>
-                <h3>FACTORY CONSTRUCTION AND MODELING</h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-            </li>
-        </ul>
+    <section class="capabilities">
+        <div class="container">
+            <div class="position">
+                <h2 class="position-title">OUR CAPABILITIES</h2>
+                <p class="position-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                <button class="button" type="button">ALL SERVICES</button>
+            </div>
+            <ul class="list">
+                <li class="item">
+                    <img class="picture" src="./image/bitmap1.svg">
+                    <h3 class="title">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </li>
+                <li class="item">
+                    <img class="picture" src="./image/bitmap2.svg">
+                    <h3 class="title">STRUCTURE AUDIT AND MAINTENANCE</h3>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </li>
+                <li class="item">
+                    <img class="picture" src="./image/bitmap3.svg">
+                    <h3 class="title">FACTORY CONSTRUCTION AND MODELING</h3>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </li>
+            </ul>
+        </div>
     </section>
 <!--get it touch-->
-    <section>
-        <h2>Want to build something amazing?</h2>
-        <button type="button">IN TOUCH</button>
+    <section class="touch">
+        <div class="container overlay">
+            <h2 class="title">Want to build<br> something amazing?</h2>
+            <button class="button" type="button">IN TOUCH</button>
+        </div>
     </section>
 <!--signup-->
-    <section>
-        <p>Newsletter Signup</p>
-        <button type="button">SIGNUP</button>
+    <section class="signup">
+        <div class="container">
+            <p>Newsletter Signup</p>
+            <button class="button" type="button">SIGNUP</button>
+        </div>
     </section>
 </main>
+<!--footer-->
 <footer>
-    <div>
-        <h3>COMPANY</h3>
-        <a href="./index.html"><img src=""></a>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-        magna aliquam erat.</p>
-    </div>
-    <div>
-        <h3>LINKS</h3>
-        <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>SERVICES</li>
-            <li>PROJECTS</li>
-            <li>CONTACT US</li>
-        </ul>
-        <ul>
-            <li>FAQ</li>
-            <li>TERMS</li>
-            <li>CAREERS</li>
-        </ul>
-        <ul>
-            <li>BLOG</li>
-            <li>PARTNERS</li>
-            <li>NEWS</li>
-        </ul>
-    </div>
-    <div>
-        <h3>CONTACT US</h3>
-        213 Baker Street
-        Oriel City Kounty
-        7000 KNW,
-        Kountry Name
-        +23 994 233 4022
-        info@konstruct.com
-    </div>
-    <div>
-        <h3>Social links</h3>
-        <ul>
-            <li>
-                <a hregf="">Facebook</a>
-            </li>
-            <li>
-                <a hregf="">Twitter</a>
-            </li>
-            <li>
-                <a hregf="">Google</a>
-            </li>
-        </ul>
-    </div>
-    <div>
-        <p> &copy; 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
-    </div>
+<!--first part-->
+    <div class="container">
+        <div>
+
+            <h3>COMPANY</h3>
+            <a href="./index.html"><img src="./image/konstruct.svg"></a>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+            magna aliquam erat.</p>
+        </div>
+<!--second part-->
+        <div>
+            <h3>LINKS</h3>
+            <ul class="list">
+                <li class="item">HOME</li>
+                <li class="item">ABOUT</li>
+                <li class="item">SERVICES</li>
+                <li class="item">PROJECTS</li>
+                <li class="item">CONTACT US</li>
+            </ul>
+            <ul class="list">
+                <li class="item">FAQ</li>
+                <li class="item">TERMS</li>
+                <li class="item">CAREERS</li>
+            </ul>
+            <ul class="list">
+                <li class="item">BLOG</li>
+                <li class="item">PARTNERS</li>
+                <li class="item">NEWS</li>
+            </ul>
+        </div>
+<!--third part-->
+        <div>
+            <h3>CONTACT US</h3>
+            213 Baker Street
+            Oriel City Kounty
+            7000 KNW,
+            Kountry Name
+            +23 994 233 4022
+            info@konstruct.com
+        </div>
+<!--forth part-->
+        <div>
+            <h3>Social links</h3>
+            <ul class="list">
+                <li class="item">
+                    <a hregf="">Facebook</a>
+                </li>
+                <li class="item">
+                    <a hregf="">Twitter</a>
+                </li>
+                <li class="item">
+                    <a hregf="">Google</a>
+                </li>
+            </ul>
+        </div>
+<!--bottom part-->
+        <div>
+            <p> &copy; 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
+        </div>
+</div>
 </footer>
 </body>
 </html>
